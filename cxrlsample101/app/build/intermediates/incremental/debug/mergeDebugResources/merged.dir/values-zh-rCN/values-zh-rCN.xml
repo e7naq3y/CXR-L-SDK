@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">CXRLSample</string>
+    <string name="audio_cleanup_failed_no_dir">清理失败：未找到音频目录。</string>
+    <string name="audio_cleanup_result">清理完成（保留最近 %1$d 条）：成功 %2$d，失败 %3$d</string>
+    <string name="audio_clear_history">清理历史录音（保留最近3条）</string>
+    <string name="audio_connected_wait_start">已连接，等待开始监听。</string>
+    <string name="audio_duration">录音时长：%1$.2fs</string>
+    <string name="audio_entry_custom_app">入口：CustomAppType</string>
+    <string name="audio_entry_custom_view">入口：CustomViewType</string>
+    <string name="audio_entry_unknown">入口：未知</string>
+    <string name="audio_error">音频异常：%1$d %2$s</string>
+    <string name="audio_file_count">录音文件数：%1$d</string>
+    <string name="audio_file_info">文件信息</string>
+    <string name="audio_listen_control">监听控制</string>
+    <string name="audio_monitor_stopped">监听已停止</string>
+    <string name="audio_monitoring">正在监听语音</string>
+    <string name="audio_need_connection">请先从 CustomAppType 或 CustomViewType 建立连接。</string>
+    <string name="audio_play_saved_audio">试听已保存音频</string>
+    <string name="audio_playback_and_file_actions">试听与文件操作</string>
+    <string name="audio_playback_finished">试听完成</string>
+    <string name="audio_playback_running">正在试听已保存音频</string>
+    <string name="audio_recent_none">最近录音：暂无</string>
+    <string name="audio_recent_recordings_title">最近录音</string>
+    <string name="audio_recent_top3">最近3条录音：\n%1$s</string>
+    <string name="audio_reuse_connection_wait_start">已复用现有连接，等待开始监听。</string>
+    <string name="audio_share_file">分享音频文件</string>
+    <string name="audio_share_title">分享音频文件</string>
+    <string name="audio_start_listen">开始监听语音</string>
+    <string name="audio_stop_listen">停止监听语音</string>
+    <string name="audio_stop_playback">停止试听</string>
+    <string name="audio_stopped_no_data">监听已停止，未收到有效音频数据。</string>
+    <string name="audio_stopped_saved">监听已停止，音频已保存，可试听。</string>
+    <string name="audio_subtitle">音频监听与试听</string>
+    <string name="audio_wait_start">等待开始监听</string>
+    <string name="auth_cancelled">用户取消通信令牌授权。</string>
+    <string name="auth_failed">通信令牌授权获取失败。</string>
+    <string name="auth_success">通信令牌授权获取成功。</string>
+    <string msgid="389117264260014992" name="autofill">"自动填充"</string>
+    <string msgid="881409763997275156" name="call_notification_answer_action">"接听"</string>
+    <string msgid="8793775615905189152" name="call_notification_answer_video_action">"视频通话"</string>
+    <string msgid="3229508546291798546" name="call_notification_decline_action">"拒接"</string>
+    <string msgid="2659457946726154263" name="call_notification_hang_up_action">"挂断"</string>
+    <string msgid="6107532579223922871" name="call_notification_incoming_text">"来电"</string>
+    <string msgid="8623827134497363134" name="call_notification_ongoing_text">"正在通话"</string>
+    <string msgid="59049573811482460" name="call_notification_screening_text">"正在过滤来电"</string>
+    <string msgid="406453423630273620" name="close_drawer">"关闭导航菜单"</string>
+    <string msgid="7573152094250666567" name="close_sheet">"关闭工作表"</string>
+    <string name="common_actions">可用操作</string>
+    <string name="common_bt_not_connected">蓝牙未连接，请先连接 Rokid 设备。</string>
+    <string name="common_file_prefix">文件：%1$s</string>
+    <string name="common_none">暂无</string>
+    <string name="common_service_not_connected">未连接眼镜服务。</string>
+    <string name="common_status_prefix">当前状态：%1$s</string>
+    <string name="custom_app_connection_ok">连接成功</string>
+    <string name="custom_app_connection_status">连接状态：%1$s</string>
+    <string name="custom_app_connection_waiting">等待连接</string>
+    <string name="custom_app_enter_audio">进入音频页面</string>
+    <string name="custom_app_enter_cmd">进入自定义指令页面</string>
+    <string name="custom_app_enter_photo">进入拍照页面</string>
+    <string name="custom_app_install_not">未安装</string>
+    <string name="custom_app_install_ok">已安装</string>
+    <string name="custom_app_install_status">应用安装：%1$s</string>
+    <string name="custom_app_install_to_glasses">向眼镜端安装APP</string>
+    <string name="custom_app_open_scene">打开应用场景</string>
+    <string name="custom_app_scene_closed">未打开</string>
+    <string name="custom_app_scene_opened">已打开</string>
+    <string name="custom_app_scene_status">应用场景：%1$s</string>
+    <string name="custom_app_stop_scene">停止应用场景</string>
+    <string name="custom_app_subtitle">自定义应用场景</string>
+    <string name="custom_app_token_missing">缺少</string>
+    <string name="custom_app_token_ok">有效</string>
+    <string name="custom_app_token_status">令牌状态：%1$s</string>
+    <string name="custom_app_uninstall">卸载APP</string>
+    <string name="custom_app_wait_connection">等待眼镜连接成功。</string>
+    <string name="custom_cmd_available">可用</string>
+    <string name="custom_cmd_connected_hint">已连接，请确保已在 CustomAppType 打开应用场景。</string>
+    <string name="custom_cmd_entry_custom_app">入口：CustomAppType</string>
+    <string name="custom_cmd_entry_custom_view">入口：CustomViewType</string>
+    <string name="custom_cmd_entry_unknown">入口：未知</string>
+    <string name="custom_cmd_feature_status">功能状态：%1$s</string>
+    <string name="custom_cmd_feedback">回传内容</string>
+    <string name="custom_cmd_from_glasses">来自眼镜端：%1$s</string>
+    <string name="custom_cmd_message_title">消息内容</string>
+    <string name="custom_cmd_need_custom_app_connection">请先从 CustomAppType 建立连接。</string>
+    <string name="custom_cmd_only_custom_app">当前入口不支持自定义指令，仅 customApp 支持。</string>
+    <string name="custom_cmd_reuse_connection">已复用现有连接。</string>
+    <string name="custom_cmd_send">发送自定义指令</string>
+    <string name="custom_cmd_status_waiting_connection">等待连接</string>
+    <string name="custom_cmd_subtitle">自定义指令交互</string>
+    <string name="custom_cmd_unavailable">当前入口不支持</string>
+    <string name="custom_view_bt_status">蓝牙连接：%1$s</string>
+    <string name="custom_view_close">关闭自定义视图</string>
+    <string name="custom_view_connected">已连接</string>
+    <string name="custom_view_not_connected">未连接</string>
+    <string name="custom_view_not_opened">未打开</string>
+    <string name="custom_view_open">打开自定义视图</string>
+    <string name="custom_view_opened">已打开</string>
+    <string name="custom_view_service_status">服务连接：%1$s</string>
+    <string name="custom_view_subtitle">自定义视图场景</string>
+    <string name="custom_view_token_status">令牌状态：%1$s</string>
+    <string name="custom_view_update">更新自定义视图</string>
+    <string name="custom_view_view_status">视图状态：%1$s</string>
+    <string name="custom_view_wait_bt">等待 Rokid AI APP 与 Rokid Glasses BT 设备连接。</string>
+    <string name="custom_view_wait_service">等待服务连接完成。</string>
+    <string msgid="8038256446254964252" name="default_error_message">"输入无效"</string>
+    <string msgid="6312721426453364202" name="default_popup_window_title">"弹出式窗口"</string>
+    <string msgid="1890207353314751437" name="dropdown_menu">"下拉菜单"</string>
+    <string name="home_auth_state_authorized">已授权</string>
+    <string name="home_auth_state_unauthorized">未授权</string>
+    <string name="home_auth_status">授权状态：%1$s</string>
+    <string name="home_enter_custom_app">进入自定义应用场景</string>
+    <string name="home_enter_custom_view">进入自定义View场景</string>
+    <string name="home_hint_line">提示：%1$s</string>
+    <string name="home_install_rokid_ai_app">安装 Rokid AI APP</string>
+    <string name="home_install_state_installed">Rokid AI 应用已安装</string>
+    <string name="home_install_state_not_installed">Rokid AI 应用未安装</string>
+    <string name="home_install_status">安装状态：%1$s</string>
+    <string name="home_recheck_install">重新检查安装状态</string>
+    <string name="home_request_authorization">请求连接授权</string>
+    <string name="home_subtitle">主页</string>
+    <string msgid="6827826412747255547" name="in_progress">"进行中"</string>
+    <string msgid="7933458017204019916" name="indeterminate">"部分选中"</string>
+    <string msgid="2988463736136100848" name="m3c_bottom_sheet_collapse_description">"收起底部动作条"</string>
+    <string msgid="1555567894577437024" name="m3c_bottom_sheet_dismiss_description">"关闭底部动作条"</string>
+    <string msgid="8403354765404029791" name="m3c_bottom_sheet_drag_handle_description">"拖动手柄"</string>
+    <string msgid="6670819569745899763" name="m3c_bottom_sheet_expand_description">"展开底部动作条"</string>
+    <string msgid="3010635850035863127" name="m3c_bottom_sheet_pane_title">"底部动作条"</string>
+    <string msgid="8166741421776570875" name="m3c_date_input_headline">"输入的日期"</string>
+    <string msgid="229313757840775812" name="m3c_date_input_headline_description">"输入的日期：%1$s"</string>
+    <string msgid="6116910750161463197" name="m3c_date_input_invalid_for_pattern">"日期不符合格式要求：%1$s"</string>
+    <string msgid="2521768508935305279" name="m3c_date_input_invalid_not_allowed">"日期无效：%1$s"</string>
+    <string msgid="7052898923934555305" name="m3c_date_input_invalid_year_range">"日期超出预期年份范围 %1$s - %2$s"</string>
+    <string msgid="2895559812010326913" name="m3c_date_input_label">"日期"</string>
+    <string msgid="1237013946323089826" name="m3c_date_input_no_input_description">"无"</string>
+    <string msgid="7306227249789210568" name="m3c_date_input_title">"选择日期"</string>
+    <string msgid="7605002211875882969" name="m3c_date_picker_headline">"选定的日期"</string>
+    <string msgid="3664277305226978227" name="m3c_date_picker_headline_description">"当前的选择：%1$s"</string>
+    <string msgid="8436650776581492840" name="m3c_date_picker_navigate_to_year_description">"切换到年份：%1$s"</string>
+    <string msgid="5811000998184572395" name="m3c_date_picker_no_selection_description">"无"</string>
+    <string msgid="7813882352367152251" name="m3c_date_picker_scroll_to_earlier_years">"滚动即可显示之前的年份"</string>
+    <string msgid="5727367015496556177" name="m3c_date_picker_scroll_to_later_years">"滚动即可显示之后的年份"</string>
+    <string msgid="1804346892470238807" name="m3c_date_picker_switch_to_calendar_mode">"切换到日历输入模式"</string>
+    <string msgid="395627960681594326" name="m3c_date_picker_switch_to_day_selection">"滑动可选择年份，点按可切换回选择日期"</string>
+    <string msgid="2219746470065162704" name="m3c_date_picker_switch_to_input_mode">"切换到文本字段输入模式"</string>
+    <string msgid="7142101321095356500" name="m3c_date_picker_switch_to_next_month">"转到下个月"</string>
+    <string msgid="228438865139394590" name="m3c_date_picker_switch_to_previous_month">"转到上个月"</string>
+    <string msgid="791651718641787594" name="m3c_date_picker_switch_to_year_selection">"切换为选择年份"</string>
+    <string msgid="7430790972741451689" name="m3c_date_picker_title">"选择日期"</string>
+    <string msgid="3199387177749801575" name="m3c_date_picker_today_description">"今天"</string>
+    <string msgid="2068382232816991922" name="m3c_date_picker_year_picker_pane_title">"年份选择器可见"</string>
+    <string msgid="3190049423327661366" name="m3c_date_range_input_invalid_range_input">"输入的日期范围无效"</string>
+    <string msgid="3148384720560189467" name="m3c_date_range_input_title">"输入日期"</string>
+    <string msgid="2138321128465719402" name="m3c_date_range_picker_day_in_range">"在范围内"</string>
+    <string msgid="4947636797751277713" name="m3c_date_range_picker_end_headline">"结束日期"</string>
+    <string msgid="602077859540990149" name="m3c_date_range_picker_scroll_to_next_month">"滚动即可显示下个月"</string>
+    <string msgid="4592174524846109496" name="m3c_date_range_picker_scroll_to_previous_month">"滚动即可显示上个月"</string>
+    <string msgid="4665981448952749820" name="m3c_date_range_picker_start_headline">"开始日期"</string>
+    <string msgid="3134165431120340385" name="m3c_date_range_picker_title">"选择日期"</string>
+    <string msgid="7617233117134790350" name="m3c_dialog">"对话框"</string>
+    <string msgid="3177828188723359358" name="m3c_dropdown_menu_collapsed">"已收起"</string>
+    <string msgid="2360841780724299882" name="m3c_dropdown_menu_expanded">"已展开"</string>
+    <string msgid="8687821690726149911" name="m3c_dropdown_menu_toggle">"展开/收起下拉菜单"</string>
+    <string msgid="6152806324422087846" name="m3c_search_bar_search">"搜索"</string>
+    <string msgid="6152755701819882931" name="m3c_snackbar_dismiss">"关闭"</string>
+    <string msgid="7655536806087401899" name="m3c_suggestions_available">"以下是搜索建议"</string>
+    <string msgid="2786685010796619560" name="m3c_time_picker_am">"上午"</string>
+    <string msgid="2349193472625211372" name="m3c_time_picker_hour">"小时"</string>
+    <string msgid="9179527532316922345" name="m3c_time_picker_hour_24h_suffix">"%1$d 小时"</string>
+    <string msgid="8876759303332837035" name="m3c_time_picker_hour_selection">"选择小时"</string>
+    <string msgid="3458167507790628988" name="m3c_time_picker_hour_suffix">"%1$d 点"</string>
+    <string msgid="6973808109666874069" name="m3c_time_picker_hour_text_field">"输入小时"</string>
+    <string msgid="4313071914266462005" name="m3c_time_picker_minute">"分钟"</string>
+    <string msgid="4699133535056739733" name="m3c_time_picker_minute_selection">"选择分钟"</string>
+    <string msgid="5064177921781937179" name="m3c_time_picker_minute_suffix">"%1$d 分钟"</string>
+    <string msgid="7661234488295443182" name="m3c_time_picker_minute_text_field">"输入分钟"</string>
+    <string msgid="5865171949528594571" name="m3c_time_picker_period_toggle_description">"选择上午或下午"</string>
+    <string msgid="6616362054113087709" name="m3c_time_picker_pm">"下午"</string>
+    <string msgid="1805687647081129904" name="m3c_tooltip_long_press_label">"显示提示"</string>
+    <string msgid="5460405025248574620" name="m3c_tooltip_pane_description">"提示"</string>
+    <string msgid="542007171693138492" name="navigation_menu">"导航菜单"</string>
+    <string msgid="6610465462668679431" name="not_selected">"未选择"</string>
+    <string name="photo_connected_wait_take">已连接，等待拍照。</string>
+    <string name="photo_entry_custom_app">入口：CustomAppType</string>
+    <string name="photo_entry_custom_view">入口：CustomViewType</string>
+    <string name="photo_entry_unknown">入口：未知</string>
+    <string name="photo_failed">拍照失败：%1$d %2$s</string>
+    <string name="photo_need_connection">请先从 CustomAppType 或 CustomViewType 建立连接。</string>
+    <string name="photo_no_result">暂无拍照结果</string>
+    <string name="photo_preview">图像预览</string>
+    <string name="photo_reuse_connection_wait_take">已复用现有连接，等待拍照。</string>
+    <string name="photo_subtitle">拍照与预览</string>
+    <string name="photo_success">拍照成功。</string>
+    <string name="photo_take_action">拍照</string>
+    <string name="photo_taking">拍照中...</string>
+    <string name="photo_taking_status">拍照中</string>
+    <string name="photo_wait_take">等待拍照</string>
+    <string msgid="5941395253238309765" name="range_end">"范围终点"</string>
+    <string msgid="7097486360902471446" name="range_start">"范围起点"</string>
+    <string name="screen_title_audio">音频</string>
+    <string name="screen_title_custom_app">自定义应用</string>
+    <string name="screen_title_custom_cmd">自定义指令</string>
+    <string name="screen_title_custom_view">自定义视图</string>
+    <string name="screen_title_main">CXRLSample</string>
+    <string name="screen_title_photo">拍照</string>
+    <string msgid="6043586758067023" name="selected">"已选择"</string>
+    <string msgid="2792228137354697160" name="snackbar_pane_title">"提醒"</string>
+    <string msgid="4139871816613051306" name="state_empty">"空白"</string>
+    <string msgid="5834637030682409883" name="state_off">"已关闭"</string>
+    <string msgid="1490883874751719580" name="state_on">"已开启"</string>
+    <string msgid="6277540029070332960" name="status_bar_notification_info_overflow">"999+"</string>
+    <string name="status_panel_title">当前状态</string>
+    <string msgid="2561197295334830845" name="switch_role">"开关"</string>
+    <string msgid="1672349317127674378" name="tab">"标签页"</string>
+    <string msgid="5946805113151406391" name="template_percent">"百分之 <ns1:g id="PERCENTAGE">%1$d</ns1:g>。"</string>
+    <string name="title_activity_audio_usage">AudioUsageActivity</string>
+    <string name="title_activity_custom_app_type">CustomAppTypeActivity</string>
+    <string name="title_activity_custom_cmd">CustomCmdActivity</string>
+    <string name="title_activity_custom_view_type">CustomViewTypeActivity</string>
+    <string name="title_activity_photo_usage">PhotoUsageActivity</string>
+    <string name="token_required_hint">请退出当前界面，并重新进入，以获取通信令牌。</string>
+    <string msgid="3765533235322692011" name="tooltip_description">"提示"</string>
+    <string msgid="3124740595719787496" name="tooltip_label">"显示提示"</string>
+</resources>

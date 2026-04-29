@@ -1,0 +1,7 @@
+com.rokid.cxrswithcxrl.app-pngs-0 /Users/apple/Documents/glass_crx_L/sSDKSampleforCXR/app/build/generated/res/pngs/debug
+com.rokid.cxrswithcxrl.app-updated_navigation_xml-1 /Users/apple/Documents/glass_crx_L/sSDKSampleforCXR/app/build/generated/updated_navigation_xml/debug
+com.rokid.cxrswithcxrl.app-packageDebugResources-2 /Users/apple/Documents/glass_crx_L/sSDKSampleforCXR/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.rokid.cxrswithcxrl.app-packageDebugResources-3 /Users/apple/Documents/glass_crx_L/sSDKSampleforCXR/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.rokid.cxrswithcxrl.app-debug-4 /Users/apple/Documents/glass_crx_L/sSDKSampleforCXR/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.rokid.cxrswithcxrl.app-debug-5 /Users/apple/Documents/glass_crx_L/sSDKSampleforCXR/app/src/debug/res
+com.rokid.cxrswithcxrl.app-main-6 /Users/apple/Documents/glass_crx_L/sSDKSampleforCXR/app/src/main/res

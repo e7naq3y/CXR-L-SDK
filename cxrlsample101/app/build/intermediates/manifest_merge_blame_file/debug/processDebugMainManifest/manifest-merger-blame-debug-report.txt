@@ -1,0 +1,254 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rokid.cxrlsample"
+4    android:versionCode="10000"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+7-->INJECTED
+8        android:minSdkVersion="31"
+8-->INJECTED
+9        android:targetSdkVersion="36" />
+9-->INJECTED
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.MANAGE_MEDIA" />
+12-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:6:5-71
+12-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:6:22-68
+13    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+13-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:7:5-82
+13-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:7:22-79
+14    <uses-permission
+14-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:8:5-10:38
+15        android:name="android.permission.READ_EXTERNAL_STORAGE"
+15-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:9:9-64
+16        android:maxSdkVersion="32" />
+16-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:10:9-35
+17
+18    <permission
+18-->[androidx.core:core:1.18.0] /Users/apple/.gradle/caches/9.3.1/transforms/93c8de466cb61bb68e22bafaf01fd546/transformed/core-1.18.0/AndroidManifest.xml:22:5-24:47
+19        android:name="com.rokid.cxrlsample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+19-->[androidx.core:core:1.18.0] /Users/apple/.gradle/caches/9.3.1/transforms/93c8de466cb61bb68e22bafaf01fd546/transformed/core-1.18.0/AndroidManifest.xml:23:9-81
+20        android:protectionLevel="signature" />
+20-->[androidx.core:core:1.18.0] /Users/apple/.gradle/caches/9.3.1/transforms/93c8de466cb61bb68e22bafaf01fd546/transformed/core-1.18.0/AndroidManifest.xml:24:9-44
+21
+22    <uses-permission android:name="com.rokid.cxrlsample.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+22-->[androidx.core:core:1.18.0] /Users/apple/.gradle/caches/9.3.1/transforms/93c8de466cb61bb68e22bafaf01fd546/transformed/core-1.18.0/AndroidManifest.xml:26:5-97
+22-->[androidx.core:core:1.18.0] /Users/apple/.gradle/caches/9.3.1/transforms/93c8de466cb61bb68e22bafaf01fd546/transformed/core-1.18.0/AndroidManifest.xml:26:22-94
+23
+24    <queries>
+24-->[com.rokid.cxr:client-l:1.0.1] /Users/apple/.gradle/caches/9.3.1/transforms/1625a9f41f8a45a5af1d668b7f8ead11/transformed/client-l-1.0.1/AndroidManifest.xml:8:5-19:15
+25
+26        <!-- 指定包名 -->
+27        <package android:name="com.rokid.sprite.aiapp" />
+27-->[com.rokid.cxr:client-l:1.0.1] /Users/apple/.gradle/caches/9.3.1/transforms/1625a9f41f8a45a5af1d668b7f8ead11/transformed/client-l-1.0.1/AndroidManifest.xml:11:9-58
+27-->[com.rokid.cxr:client-l:1.0.1] /Users/apple/.gradle/caches/9.3.1/transforms/1625a9f41f8a45a5af1d668b7f8ead11/transformed/client-l-1.0.1/AndroidManifest.xml:11:18-55
+28
+29        <!-- 或者指定 intent action -->
+30        <!--
+31        intent>
+32            <action android:name="com.xxx.remoteservice.BIND" />
+33        </intent
+34        -->
+35    </queries>
+36
+37    <application
+37-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:14:5-69:19
+38        android:name="com.rokid.cxrlsample.CXRLSampleApplication"
+38-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:15:9-46
+39        android:allowBackup="true"
+39-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:16:9-35
+40        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+40-->[androidx.core:core:1.18.0] /Users/apple/.gradle/caches/9.3.1/transforms/93c8de466cb61bb68e22bafaf01fd546/transformed/core-1.18.0/AndroidManifest.xml:28:18-86
+41        android:dataExtractionRules="@xml/data_extraction_rules"
+41-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:17:9-65
+42        android:debuggable="true"
+43        android:extractNativeLibs="false"
+43-->INJECTED
+44        android:fullBackupContent="@xml/backup_rules"
+44-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:18:9-54
+45        android:icon="@mipmap/ic_launcher"
+45-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:19:9-43
+46        android:label="@string/app_name"
+46-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:20:9-41
+47        android:roundIcon="@mipmap/ic_launcher_round"
+47-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:21:9-54
+48        android:supportsRtl="true"
+48-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:22:9-35
+49        android:theme="@style/Theme.CXRLSample" >
+49-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:23:9-48
+50        <provider
+50-->INJECTED
+51            android:name="androidx.core.content.FileProvider"
+51-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:25:13-62
+52            android:authorities="com.rokid.cxrlsample.fileprovider"
+52-->INJECTED
+53            android:exported="false"
+53-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:27:13-37
+54            android:grantUriPermissions="true" >
+54-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:28:13-47
+55            <meta-data
+55-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:29:13-31:54
+56                android:name="android.support.FILE_PROVIDER_PATHS"
+56-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:30:17-67
+57                android:resource="@xml/file_paths" />
+57-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:31:17-51
+58        </provider>
+59
+60        <activity
+60-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:33:9-37:55
+61            android:name="com.rokid.cxrlsample.activities.photo.PhotoUsageActivity"
+61-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:34:13-64
+62            android:exported="false"
+62-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:35:13-37
+63            android:label="@string/screen_title_photo"
+63-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:36:13-55
+64            android:theme="@style/Theme.CXRLSample" />
+64-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:37:13-52
+65        <activity
+65-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:38:9-42:55
+66            android:name="com.rokid.cxrlsample.activities.customCMD.CustomCmdActivity"
+66-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:39:13-67
+67            android:exported="false"
+67-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:40:13-37
+68            android:label="@string/screen_title_custom_cmd"
+68-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:41:13-60
+69            android:theme="@style/Theme.CXRLSample" />
+69-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:42:13-52
+70        <activity
+70-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:43:9-47:55
+71            android:name="com.rokid.cxrlsample.activities.audio.AudioUsageActivity"
+71-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:44:13-64
+72            android:exported="false"
+72-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:45:13-37
+73            android:label="@string/screen_title_audio"
+73-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:46:13-55
+74            android:theme="@style/Theme.CXRLSample" />
+74-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:47:13-52
+75        <activity
+75-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:48:9-52:55
+76            android:name="com.rokid.cxrlsample.activities.customViewType.CustomViewTypeActivity"
+76-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:49:13-77
+77            android:exported="false"
+77-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:50:13-37
+78            android:label="@string/screen_title_custom_view"
+78-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:51:13-61
+79            android:theme="@style/Theme.CXRLSample" />
+79-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:52:13-52
+80        <activity
+80-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:53:9-57:55
+81            android:name="com.rokid.cxrlsample.activities.customAppType.CustomAppTypeActivity"
+81-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:54:13-75
+82            android:exported="false"
+82-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:55:13-37
+83            android:label="@string/screen_title_custom_app"
+83-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:56:13-60
+84            android:theme="@style/Theme.CXRLSample" />
+84-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:57:13-52
+85        <activity
+85-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:58:9-68:20
+86            android:name="com.rokid.cxrlsample.activities.main.MainActivity"
+86-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:59:13-57
+87            android:exported="true"
+87-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:60:13-36
+88            android:label="@string/screen_title_main"
+88-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:61:13-54
+89            android:theme="@style/Theme.CXRLSample" >
+89-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:62:13-52
+90            <intent-filter>
+90-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:63:13-67:29
+91                <action android:name="android.intent.action.MAIN" />
+91-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:64:17-69
+91-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:64:25-66
+92
+93                <category android:name="android.intent.category.LAUNCHER" />
+93-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:66:17-77
+93-->/Users/apple/Documents/glass_crx_L/cxrlsample101/app/src/main/AndroidManifest.xml:66:27-74
+94            </intent-filter>
+95        </activity>
+96        <activity
+96-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/apple/.gradle/caches/9.3.1/transforms/f0ae67aa5167193303a5d0ec4c371183/transformed/ui-tooling/AndroidManifest.xml:23:9-25:39
+97            android:name="androidx.compose.ui.tooling.PreviewActivity"
+97-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/apple/.gradle/caches/9.3.1/transforms/f0ae67aa5167193303a5d0ec4c371183/transformed/ui-tooling/AndroidManifest.xml:24:13-71
+98            android:exported="true" />
+98-->[androidx.compose.ui:ui-tooling-android:1.9.2] /Users/apple/.gradle/caches/9.3.1/transforms/f0ae67aa5167193303a5d0ec4c371183/transformed/ui-tooling/AndroidManifest.xml:25:13-36
+99
+100        <provider
+100-->[androidx.emoji2:emoji2:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/75ec56386f3897590b9099a4495a2a98/transformed/emoji2-1.4.0/AndroidManifest.xml:24:9-32:20
+101            android:name="androidx.startup.InitializationProvider"
+101-->[androidx.emoji2:emoji2:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/75ec56386f3897590b9099a4495a2a98/transformed/emoji2-1.4.0/AndroidManifest.xml:25:13-67
+102            android:authorities="com.rokid.cxrlsample.androidx-startup"
+102-->[androidx.emoji2:emoji2:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/75ec56386f3897590b9099a4495a2a98/transformed/emoji2-1.4.0/AndroidManifest.xml:26:13-68
+103            android:exported="false" >
+103-->[androidx.emoji2:emoji2:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/75ec56386f3897590b9099a4495a2a98/transformed/emoji2-1.4.0/AndroidManifest.xml:27:13-37
+104            <meta-data
+104-->[androidx.emoji2:emoji2:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/75ec56386f3897590b9099a4495a2a98/transformed/emoji2-1.4.0/AndroidManifest.xml:29:13-31:52
+105                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+105-->[androidx.emoji2:emoji2:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/75ec56386f3897590b9099a4495a2a98/transformed/emoji2-1.4.0/AndroidManifest.xml:30:17-75
+106                android:value="androidx.startup" />
+106-->[androidx.emoji2:emoji2:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/75ec56386f3897590b9099a4495a2a98/transformed/emoji2-1.4.0/AndroidManifest.xml:31:17-49
+107            <meta-data
+107-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/apple/.gradle/caches/9.3.1/transforms/c4dd1aa4e0d7ad00a60e9e9d44d9fe1f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:29:13-31:52
+108                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+108-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/apple/.gradle/caches/9.3.1/transforms/c4dd1aa4e0d7ad00a60e9e9d44d9fe1f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:30:17-78
+109                android:value="androidx.startup" />
+109-->[androidx.lifecycle:lifecycle-process:2.10.0] /Users/apple/.gradle/caches/9.3.1/transforms/c4dd1aa4e0d7ad00a60e9e9d44d9fe1f/transformed/lifecycle-process-2.10.0/AndroidManifest.xml:31:17-49
+110            <meta-data
+110-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:29:13-31:52
+111                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+111-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:30:17-85
+112                android:value="androidx.startup" />
+112-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:31:17-49
+113        </provider>
+114
+115        <activity
+115-->[androidx.compose.ui:ui-test-manifest:1.9.2] /Users/apple/.gradle/caches/9.3.1/transforms/5fae3635571f51b1f315f538ccc161b2/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:23:9-26:79
+116            android:name="androidx.activity.ComponentActivity"
+116-->[androidx.compose.ui:ui-test-manifest:1.9.2] /Users/apple/.gradle/caches/9.3.1/transforms/5fae3635571f51b1f315f538ccc161b2/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:24:13-63
+117            android:exported="true"
+117-->[androidx.compose.ui:ui-test-manifest:1.9.2] /Users/apple/.gradle/caches/9.3.1/transforms/5fae3635571f51b1f315f538ccc161b2/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:25:13-36
+118            android:theme="@android:style/Theme.Material.Light.NoActionBar" />
+118-->[androidx.compose.ui:ui-test-manifest:1.9.2] /Users/apple/.gradle/caches/9.3.1/transforms/5fae3635571f51b1f315f538ccc161b2/transformed/ui-test-manifest-1.9.2/AndroidManifest.xml:26:13-76
+119
+120        <receiver
+120-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:34:9-52:20
+121            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+121-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:35:13-76
+122            android:directBootAware="false"
+122-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:36:13-44
+123            android:enabled="true"
+123-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:37:13-35
+124            android:exported="true"
+124-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:38:13-36
+125            android:permission="android.permission.DUMP" >
+125-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:39:13-57
+126            <intent-filter>
+126-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:40:13-42:29
+127                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:17-91
+127-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:41:25-88
+128            </intent-filter>
+129            <intent-filter>
+129-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:43:13-45:29
+130                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:17-85
+130-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:44:25-82
+131            </intent-filter>
+132            <intent-filter>
+132-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:46:13-48:29
+133                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:17-88
+133-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:47:25-85
+134            </intent-filter>
+135            <intent-filter>
+135-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:49:13-51:29
+136                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:17-95
+136-->[androidx.profileinstaller:profileinstaller:1.4.0] /Users/apple/.gradle/caches/9.3.1/transforms/69c45a3d8782db0c68e4f26af6382a5f/transformed/profileinstaller-1.4.0/AndroidManifest.xml:50:25-92
+137            </intent-filter>
+138        </receiver>
+139    </application>
+140
+141</manifest>
